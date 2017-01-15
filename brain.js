@@ -1,13 +1,17 @@
 var Botkit = require('botkit');
+require('dotenv').config()
+
 
 var controller = Botkit.slackbot({
-  debug: false
+  debug: true
  
 });
 
 
 controller.spawn ({
-    //token: <slack token>,
+    
+    token: process.env.SLACK_TOKEN
+
     
     
 }).startRTM()
