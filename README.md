@@ -1,2 +1,10 @@
 # projectBot
-A team collaboration focusing on building an AI bot.
+Team collaboration on building a Slack bot.
+
+
+# How to Contribute
+
+
+
+# Team
+
