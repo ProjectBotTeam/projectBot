@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "botkit": "^0.4.9",
-    "dotenv": "^4.0.0"
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0"
   }
 }
