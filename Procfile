@@ -1,1 +1,1 @@
-web: node app/bot/brain.js
+web: node app/index.js
