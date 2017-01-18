@@ -7,7 +7,8 @@
   "author": "Team",
   "license": "MIT",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "devDependencies": {
     "chai": "^3.5.0",
