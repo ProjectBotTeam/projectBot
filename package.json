@@ -7,14 +7,15 @@
   "author": "Team",
   "license": "MIT",
   "scripts": {
-    "test": "mocha",
-    "start": "node index.js"
+    "test": "mocha $(find test -name '*.js')",
+    "start": "NODE_PATH=. node app/index.js"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
   },
   "dependencies": {
+    "app-root-path": "^2.0.1",
     "botkit": "^0.4.9",
     "dotenv": "^4.0.0",
     "express": "^4.14.0"
