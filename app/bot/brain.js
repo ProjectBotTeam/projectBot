@@ -11,7 +11,7 @@ controller.spawn ({
 
 controller.hears('weather', ['direct_message', 'direct_mention', 'mention', 'ambient'], function(bot, message) {
   bot.reply(message, 'Getting the weather...')
-  weather.getWeather()
+  weather.getCityState("Weather for Orlando, FL")
 })
 
 controller.hears('stock', ['direct_message', 'direct_mention', 'mention', 'ambient'], function(bot, message) {
