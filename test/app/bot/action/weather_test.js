@@ -1,12 +1,13 @@
 var appRoot = require('app-root-path')
-var weatherjs = require(appRoot + '/app/bot/action/weather' )
+var weatherjs = require(appRoot + '/app/bot/action/weather')
 var expect = require('chai').expect
-var useIn = 'What is the weather in Orlando, FL?'
-var useFor = 'Get the weather for Chicago, IL.'
+var message = 'What is the weather in Orlando, FL?'
 
-describe('getCityState', function() {
+describe('getCityState', function () {
   var getCityState = weatherjs.getCityState
-  it('should get the Slack message using the word in', function() {
-    //expect(getCityState(useIn)).to.equal('Orlando, FL')
+  var cityState = ['Orlando', ' FL']
+
+  it('should get the city, state from the Slack message', function () {
+    expect(getCityState(message)).to.deep.equal(cityState)
   })
 })

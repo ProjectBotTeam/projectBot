@@ -16,5 +16,3 @@ app.use((err, request, response, next) => {
 })
 
 app.listen(port)
-
-console.log('index.js ......')
