@@ -15,7 +15,13 @@ Team collaboration on building a Slack bot.
 
 * Remember to: Git pull changes from master branch and merge any changes to your branch
 
+# Config for .env file
 
+- The .env file should be located in the app directory and include the below.
+```
+SLACK_TOKEN=<TOKEN>
+WUNDERGROUND_TOKEN=<TOKEN>
+```
 
 # Team
 
