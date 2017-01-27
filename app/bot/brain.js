@@ -11,14 +11,9 @@ controller.spawn({
 
 controller.hears('weather', ['direct_message', 'direct_mention', 'mention', 'ambient'], function (bot, message) {
   bot.reply(message, 'Getting the weather...', function () {
-    var temperature = weather.getWeather("Weather for Orlando, FL")
-    if(temperature != 'undefined') {
-bot.reply(message, temperature)
-    }
-    else {
-      bot.reply(message, 'There seems to be a problem. Try again a few seconds.')
-    }
-    
+    weather.getData(message.text, function (results) {
+      bot.reply(message, weather.getTemperature(results))
+    })
   })
 })
 
