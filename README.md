@@ -4,7 +4,7 @@
 Team collaboration on building a Slack bot.
 
 # Features
-
+- Get's the temperature from a city and state. For example, what's the weather in Orlando, FL returns the temperature is 62.8 F (17.1 C) in Orlando, FL.
 
 # How to Contribute
 
