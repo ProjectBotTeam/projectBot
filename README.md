@@ -4,6 +4,7 @@
 Team collaboration on building a Slack bot.
 
 # Features
+- Have conversations with the bot with direct messaging or mentions in the channel.
 - Get's the temperature from a city and state. For example, what's the weather in Orlando, FL returns the temperature is 62.8 F (17.1 C) in Orlando, FL.
 
 # How to Contribute
@@ -21,6 +22,8 @@ Team collaboration on building a Slack bot.
 ```
 SLACK_TOKEN=<TOKEN>
 WUNDERGROUND_TOKEN=<TOKEN>
+CLEVERBOT_USER=<TOKEN>
+CLEVERBOT_TOKEN=<TOKEN>
 ```
 
 # Team
