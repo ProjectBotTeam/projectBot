@@ -251,6 +251,12 @@ chrono-node@^1.1.3:
   dependencies:
     moment "^2.10.3"
 
+cleverbot.io@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/cleverbot.io/-/cleverbot.io-1.0.4.tgz#8064862cb1f09bf7977d13b4b67b0b90e82f40af"
+  dependencies:
+    request "^2.53.0"
+
 cliui@^3.0.3:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-3.2.0.tgz#120601537a916d29940f934da3b48d585a39213d"
@@ -1137,7 +1143,7 @@ request@2.78.0:
     tough-cookie "~2.3.0"
     tunnel-agent "~0.4.1"
 
-request@^2.67.0, request@^2.69.0:
+request@^2.53.0, request@^2.67.0, request@^2.69.0:
   version "2.79.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.79.0.tgz#4dfe5bf6be8b8cdc37fcf93e04b65577722710de"
   dependencies:
